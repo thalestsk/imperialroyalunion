@@ -1,34 +1,215 @@
-TEMPLATE {
-color: HEX_VALUE;
-text-align: LEFT_RIGHT_CENTER_JUSTIFY;
-font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-font-size: MIN_16_MAX_50;
-}
-
 /*ORANGE: #febf2d*/
 /*BLUE: #1db4d5*/
 
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
 
 * {
-font-family: 'Open Sans', sans-serif;
-box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+.col-1 {width: 5%;}
+.col-2 {width: 10%;}
+.col-3 {width: 15%;}
+.col-4 {width: 20%;}
+.col-5 {width: 25%;}
+.col-6 {width: 30%;}
+.col-7 {width: 35%;}
+.col-8 {width: 40%;}
+.col-9 {width: 45%;}
+.col-10 {width: 50%;}
+.col-11 {width: 55%;}
+.col-12 {width: 60%;}
+.col-13 {width: 65%;}
+.col-14 {width: 70%;}
+.col-15 {width: 75%;}
+.col-16 {width: 80%;}
+.col-17 {width: 85%;}
+.col-18 {width: 90%;}
+.col-19 {width: 95%;}
+.col-20 {width: 100%;}
+
+[class^="col"] {
+  float: left;
+  padding: 0.7vw;
+}
+
+aside {
+  border: 0.05vw solid #c20000;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+footer {
+  background-color: #c20000;
+  color: #ededed;
+  padding: 2vw 8vw;
 }
 
 body {
-  color: #333333;
-  font-size: 18px;
+  color: #555555;
+  font-size: 1.15vw;
 }
 
-.center {
-text-align: center;
+p {
+  margin: 0 0 0 0;
+  text-align: justify
 }
 
-.justify {
-text-align: justify
+hr {
+  color: #c20000;
+  margin: 0.5vw 0 0.5vw 0;
+}
+
+.imagecenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.textcenter {
+  text-align: center;
 }
 
 h1 {
-color: #555555;
-font-size: 50px;
+  color: #333333;
+  font-size: 3.6vw;
+  margin: 2vw 0 2vw 0;
 }
+
+h2 {
+  color: #444444;
+  font-size: 2.4vw;
+  margin: 0 0 1vw 0;
+}
+
+h3 {
+  color: #555555;
+  font-size: 1.8vw;
+  margin: 0 0 0.33vw 0;
+}
+
+h4 {
+  color: #666666;
+  font-size: 1.4vw;
+  margin: 0 0 0 0;
+  text-decoration: underline;
+}
+
+.headersub {
+  color: #c20000;
+  font-size: 1vw;
+  font-weight: bolder;
+  margin: 0 0 0.25vw 0;
+  letter-spacing: 0.5vw;
+  text-align: center;
+}
+
+.infobox {
+  font-size: 1vw;
+  margin: 0 0 0 0;
+}
+
+a:link {
+  color: #333333;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #333333;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #111111;
+  background-color: transparent;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:active {
+  color: #111111;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+
+.infotitle {
+  text-align: center;
+  font-size: 0.9vw;
+  margin: 0 0 0 0;
+}
+
+.portrait {
+  border-left: 0.33vw solid #999999;
+  padding: 2vw;
+  float: right;
+  margin: 0 0 0 2.5vw;
+}
+
+.portrait_org {
+  padding: 1.5vw;
+}
+
+.icon {
+  position: relative;
+  /* Adjust these values accordingly */
+  top: 5px;
+  left: 5px;
+}
+
+.infoboxlist {
+  list-style-type: square;
+  font-size: 1vw;
+  font-weight: bold;
+  margin: 0 0 0 0;
+  padding: 0.33vw 0 0 1.5vw;
+}
+
+.secondorder {
+  padding: 0.22vw 0 0.55vw 1.5vw;
+  font-weight: normal;
+}
+
+.orgtable {
+  border: 0.075vw solid #777777;
+  border-collapse: collapse;
+  vertical-align: middle
+}
+
+th {
+  background-color: #777777;
+  color: #ededed;
+}
+
+tr.orgtable:hover {background-color: #ededed; color: #000000;}
+
+.tablemain_h1 {
+  font-weight: bold;
+  font-size: 1vw;
+}
+
+.tablesub_h1 {
+  color: #555555;
+  font-size: 0.9vw;
+  font-style: italic;
+}
+
+.tablemain_h2 {
+  font-weight: bold;
+  font-size: 1vw;
+  padding: 0 0 0 2.5vw;
+}
+
+.tablename {font-size: 1vw;}
