@@ -233,33 +233,65 @@ body {
     padding:0;
 }
 
-#navbar {
-    overflow: hidden;
+.sidenav {
+    width: 100%; /* Set the width of the sidebar */
+    position:static;
+    background-color: #ededed;
+    overflow-x: hidden;
+}
+
+.sidenav a {
+    padding: 0.25vw 0.5vw;
+    font-size: 1.11vw;
+    color: #888888;
+    display: block;
+    font-weight: normal;
+}
+
+.sidenav a:hover {
+    color: #092367;
+    font-weight: bold;
+}
+
+.sidenav a:active {
+    background-color: #092367;
+    color: #ededed;
+    font-weight: bold;
+}
+
+.footer{
+    background-color:transparent;
+    margin: 0;
+    padding: 0;
+}
+
+#sidenav_img {
+    padding: 1vw;
+    width: 10vw;
+    height: auto;
+    display: block;
+    margin-right:auto;
+    margin-left: auto;
+}
+
+.sidenav .currentpage {
+    padding: 0.25vw 0.5vw;
+    background-color: #092367;
+    font-size: 1.11vw;
+    color: #ededed;
+    font-weight: bold;
+    display: block;
+}
+
+#tab1 {margin-left: 1.5vw;}
+#tab2 {margin-left: 3vw;}
+#tab3 {margin-left: 4.5vw;}
+
+.gpseclist {
     font-size: 1vw;
+    margin-top: 0.7vw;
 }
 
-#navbar a {
-    float: right;
-    display: block;
-    color: #092367;
-    text-align: center;
-    padding: .6vw;
-}
-
-#navbar a:active {
-    float: right;
-    display: block;
-    color: #092367;
-    text-align: center;
-    font-weight: bold;
-    padding: .6vw;
-}
-
-#navbar a:hover {
-    float: right;
-    display: block;
-    color: #092367;
-    text-align: center;
-    font-weight: bold;
-    padding: .6vw;
+.gpseclist li {
+    margin:0.5vw;
 }
