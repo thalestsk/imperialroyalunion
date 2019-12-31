@@ -213,3 +213,53 @@ tr.orgtable:hover {background-color: #ededed; color: #000000;}
 }
 
 .tablename {font-size: 1vw;}
+
+.officialblue {
+    font-weight: bold;
+    font-size: 1.1vw;
+    text-align: center;
+    color: #092367;
+    text-transform: uppercase;
+    margin-top: .75vw;
+}
+
+#indexheader {
+    background-image: url(logos/Index%20Banner.png);
+    background-size: cover;
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+
+#navbar {
+    overflow: hidden;
+    font-size: 1vw;
+}
+
+#navbar a {
+    float: right;
+    display: block;
+    color: #092367;
+    text-align: center;
+    padding: .6vw;
+}
+
+#navbar a:active {
+    float: right;
+    display: block;
+    color: #092367;
+    text-align: center;
+    font-weight: bold;
+    padding: .6vw;
+}
+
+#navbar a:hover {
+    float: right;
+    display: block;
+    color: #092367;
+    text-align: center;
+    font-weight: bold;
+    padding: .6vw;
+}
