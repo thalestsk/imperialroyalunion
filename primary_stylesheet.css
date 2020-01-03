@@ -329,3 +329,16 @@ body {
     font-size: 0.9vw;
     margin: 0.45vw;
 }
+
+.court {
+    font-size: 0.95vw;
+    border-collapse: collapse;
+}
+
+.court th {
+    border: 0.11vw solid #555555
+}
+
+.court td {
+    border: 0.11vw solid #555555
+}
