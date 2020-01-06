@@ -342,3 +342,8 @@ body {
 .court td {
     border: 0.11vw solid #555555
 }
+
+#GMIO_List li {
+    margin: 0.33vw 0;
+    font-size: 1vw;
+}
