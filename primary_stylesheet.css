@@ -183,9 +183,10 @@ th, td {
 }
 
 .orgtable {
-  border: 0.075vw solid #777777;
-  border-collapse: collapse;
-  vertical-align: middle
+    border: 0.075vw solid #777777;
+    border-collapse: collapse;
+    vertical-align: middle;
+    font-size: 1vw;
 }
 
 th {
@@ -193,7 +194,7 @@ th {
   color: #ededed;
 }
 
-tr.orgtable:hover {background-color: #ededed; color: #000000;}
+.orgtable tr:hover {background-color: #ededed; color: #000000;}
 
 .tablemain_h1 {
   font-weight: bold;
@@ -287,6 +288,9 @@ body {
 #tab2 {margin-left: 3vw;}
 #tab3 {margin-left: 4.5vw;}
 
+.orgtable #tab1 {padding-left: 1.6vw;}
+.orgtable #tab2 {padding-left: 3.2vw;}
+
 .gpseclist {
     font-size: 1vw;
     margin-top: 0.7vw;
@@ -346,4 +350,20 @@ body {
 #GMIO_List li {
     margin: 0.33vw 0;
     font-size: 1vw;
+}
+
+.ndatable td {
+    font-size: 0.95vw;
+    border: 0.1vw #777777 solid;
+    border-collapse: collapse;
+    padding: 0.5vw 0.5vw;
+}
+
+.ndatable th {
+    padding: 0.2vw 0.5vw;
+}
+
+.ndatable {
+    border: 0.1vw #777777 solid;
+    border-collapse: collapse;
 }
