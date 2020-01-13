@@ -44,6 +44,16 @@ aside {
   display: table;
 }
 
+.mainbody {
+    margin: 1vw 8.5vw;
+}
+
+.mainbody::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 footer {
   background-color: #c20000;
   color: #ededed;
