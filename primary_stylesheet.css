@@ -270,10 +270,22 @@ body {
     font-weight: bold;
 }
 
-.footer{
+.footer {
     background-color:transparent;
     margin: 0;
     padding: 0;
+    color: white;
+    font-size: 0.9vw;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 #sidenav_img {
@@ -309,6 +321,13 @@ body {
 .gpseclist li {
     margin: 0.5vw;
 }
+
+.orgtable .gpseclist {
+    font-size: 0.9vw;
+    margin: 0.5vw;
+    padding: 0.5vw;
+}
+
 
 .privytitle {
     font-size: 0.75vw;
@@ -376,4 +395,27 @@ body {
 .ndatable {
     border: 0.1vw #777777 solid;
     border-collapse: collapse;
+}
+
+.dgsslogo {
+    width: 10vw;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.dgss_en {
+    font-size: 1.33vw;
+    font-weight: bold;
+    margin-bottom: 0.33vw;
+}
+
+.dgss_fr {
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+.dgss_se {
+    font-style: italic;
+    font-size: 1vw;
 }
