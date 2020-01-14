@@ -290,8 +290,8 @@ body {
 
 #sidenav_img {
     padding: 1vw;
-    width: 10vw;
-    height: auto;
+    width: auto;
+    height: 12.5vw;
     display: block;
     margin-right:auto;
     margin-left: auto;
