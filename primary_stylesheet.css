@@ -419,3 +419,15 @@ body {
     font-style: italic;
     font-size: 1vw;
 }
+
+.dfaspoiler {
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.dfaspoiler img {
+    height: auto;
+    width: 2vw;
+    display:inline;
+    border: 0.05vw solid #333333;
+}
