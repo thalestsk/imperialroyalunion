@@ -465,3 +465,37 @@ body {
     display:block;
     margin:auto;
 }
+
+.Directory_Topnav, #Directory_Exit {
+    border: 1.5px solid #720000;
+    border-radius: 0.33vw;
+    width: 100%;
+    padding: 0.55vw;
+    color: #720000;
+    text-align: center;
+    line-height: 1vw;
+}
+
+a:hover .Directory_Topnav, a:hover #Directory_Current, #Directory_Current {
+    border: 1.5px solid #720000;
+    border-radius: 0.33vw;
+    width: 100%;
+    padding: 0.55vw;
+    color: white;
+    background-color: #720000;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1vw;
+}
+
+a:hover #Directory_Exit {
+    border: 1.5px solid #092367;
+    border-radius: 0.33vw;
+    width: 100%;
+    padding: 0.55vw;
+    color: white;
+    background-color: #092367;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1vw;
+}
