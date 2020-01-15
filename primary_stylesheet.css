@@ -431,3 +431,37 @@ body {
     display:inline;
     border: 0.05vw solid #333333;
 }
+
+#eserviceheader {
+}
+
+.isrcontent {width: 100%;border-collapse: collapse;}
+
+.isrcontent th {
+    border-bottom: 1.5px solid #cccccc;
+    color: #555555;
+    background-color: #ececec;
+    vertical-align: middle;
+    font-size: 1.15vw;
+    padding: 0.44vw;
+}
+
+.isrcontent td {
+    border-bottom: 1.5px solid #cccccc;
+    vertical-align: middle;
+    font-size: 1.05vw;
+    padding: 0.44vw;
+}
+
+.isrcontent tr:nth-child(even) {background-color: #f4f4f4;}
+.isrcontent td:nth-child(2) {width:10vw}
+.isrcontent td:nth-child(3) {width:3vw}
+.isrcontent td:nth-child(4) {width:3vw}
+.isrcontent tr:hover {background-color: #e9e9e9;font-weight:bold;}
+
+.isrcontent img {
+    width:1.33vw;
+    padding-top:0.15vw;
+    display:block;
+    margin:auto;
+}
