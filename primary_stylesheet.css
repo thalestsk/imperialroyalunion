@@ -499,3 +499,45 @@ a:hover #Directory_Exit {
     font-weight: normal;
     line-height: 1vw;
 }
+
+.CatBox {padding: 0.77vw}
+#CB1 {background-color: #ffdde2;}
+#CB2 {background-color: #ffe1dd;}
+#CB3 {background-color: #ffeadd;}
+
+.CatBox h4 {
+    text-decoration: none;
+    color: #720000;
+    font-size: 1.33vw;
+    text-align: center;
+    margin-bottom: 0.33vw;
+}
+
+.CatBox p {
+    color: #720000;
+    font-size: 0.95vw
+}
+
+a .AgencyType1 {border: 3px solid #ffdde2; padding: .77vw; border-radius: 0.25vw; color:#c5001d;}
+a .AgencyType2 {border: 3px solid #ffe1dd; padding: .77vw; border-radius: 0.25vw; color:#c51700;}
+a .AgencyType3 {border: 3px solid #ffeadd; padding: .77vw; border-radius: 0.25vw; color:#c54b00;}
+a:hover .AgencyType1 {border: 3px solid #ffdde2; padding: .77vw; background-color: #ffdde2; border-radius: 0.25vw; color:#c5001d;}
+a:hover .AgencyType2 {border: 3px solid #ffe1dd; padding: .77vw; background-color: #ffe1dd; border-radius: 0.25vw; color:#c51700;}
+a:hover .AgencyType3 {border: 3px solid #ffeadd; padding: .77vw; background-color: #ffeadd; border-radius: 0.25vw; color:#c54b00;}
+.AgencyType1, .AgencyType2, .AgencyType3 {display: flex; flex-direction: column; align-items: center; height: 13vw; justify-content: center;}
+
+.AgencyType1 img, .AgencyType2 img, .AgencyType3 img {
+    width: auto;
+    height: 8vw;
+    display: block;
+    margin: 0 auto 0.77vw auto;
+}
+
+.AgencyType1 p, .AgencyType2 p, .AgencyType3 p {
+    font-weight: bold;
+    font-size: 1vw;
+    text-transform: uppercase;
+    text-align: center;
+    color: inherit;
+    line-height: 1.15vw;
+}
