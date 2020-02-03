@@ -543,3 +543,57 @@ a:hover .AgencyType3 {border: 3px solid #ffeadd; padding: .77vw; background-colo
     color: inherit;
     line-height: 1.15vw;
 }
+
+.gmiotag {
+    font-size: 0.9vw;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.tag-iru {
+    background-color: #17a1cf;
+    padding: 0.3vw;
+    border-radius: 7px;
+    text-align: center;
+    display: inline;
+}
+
+.tag-cfor {
+    background-color: #12a112;
+    padding: 0.3vw;
+    border-radius: 7px;
+    text-align: center;
+    display: inline;
+}
+
+.tag-foreign {
+    background-color: #e68019;
+    padding: 0.3vw;
+    border-radius: 7px;
+    text-align: center;
+    display: inline;
+}
+
+.tag-canon {
+    background-color: #e61919;
+    padding: 0.3vw;
+    border-radius: 7px;
+    text-align: center;
+    display: inline;
+}
+
+.tag-irl {
+    background-color: #7d12a1;
+    padding: 0.3vw;
+    border-radius: 7px;
+    text-align: center;
+    display: inline;
+}
+
+.press_statement li {
+    text-align: justify;
+    margin: 0.88vw 0;
+    font-size: 1.1vw;
+}
