@@ -1,0 +1,386 @@
+
+@import '_base.scss';
+
+.contentbox {
+    padding: 2vw 0;
+    margin: 0 6vw;
+    background-color: $white;
+    box-shadow: 0 .5vw $grey;
+    display: flex;
+    box-shadow: .03vw 0 .3vw $grey, -.03vw 0 .3vw $light-grey,;
+
+    a, p {
+        font-size: 1.2vw;
+        font-family: $content;
+        font-weight: 400;
+        margin: 0;
+        padding: 0 0 1vw 0;
+        text-decoration: none;
+        color: $grey;
+        line-height: 1.8vw;
+        text-align: justify;
+    }
+
+    a {
+        color: $black;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: $dark-cyan;
+    }
+
+    hr {
+        padding: 0;
+        margin: 0 0 1.5vw 0;
+    }
+}
+
+h1, h2, h3, h4 {
+    font-family: $header;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 2.4vw;
+    color: $tint-cyan;
+    margin: 0 0 1vw 0;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.9vw;
+    color: $tint-cyan;
+    margin: 0 0 .5vw 0;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.5vw;
+    color: $tint-gold;
+    margin: 1vw 0 1vw 0;
+}
+
+h4 {
+    font-weight: 900;
+    font-size: 1.2vw;
+    color: $dark-cyan;
+    text-transform: uppercase;
+    letter-spacing: 0.03vw;
+    margin: 0 0 .5vw 0;
+}
+
+#top_navbar {
+    position: sticky;
+    top: 0;
+    display: block;
+    z-index: 1;
+}
+
+.sidebar_column {
+    margin: 0 4vw 3vw 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+    .linkbox {
+        margin: 3vw 0 0 0;
+        padding: 1vw;
+        display: block;
+        background-color: $off-white;
+        h3 {border-bottom: 0.1vw solid $light-grey; margin: 0 0 .5vw 0;}
+        ul {
+            padding: 0 0 0 .8vw;
+            margin: 0;
+            font-family: $content;
+            color: $grey;
+            list-style-type: none;
+            li {font-size: 1.1vw; padding: .25vw 0;}
+            li::marker {content: "⤷ ";}
+            a {text-decoration: none; font-size: inherit; line-height: 1vw;}
+            a:hover {color: $dark-cyan; text-decoration: underline;}
+        }
+    }
+    .logobox {
+        margin: 2vw 0 0 0;
+        padding: 0;
+        display: block;
+        width: 100%;
+        img {width: 100%;}
+    }
+}
+
+.content_space {
+    margin: 0;
+    padding: 0 4vw 0 4vw;
+    display: block;
+    min-width: 70%;
+    .btnrow {display: flex;}
+    .justify {justify-content: space-around;}
+    .btn1, .btn2, .btn3, .btn4, .btn5, .btn6 {
+        display: block;
+        position: relative;
+        text-align: center;
+        padding: .5vw;
+        color: $white;
+        box-shadow: .05vw 0 .5vw $grey, -.05vw 0 .5vw $off-white,;
+        img {max-height: 11vw; max-width: 22vw;}
+    }
+    .btntext1, .btntext2, .btntext3, .btntext4, .btntext5, .btntext6 {
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 100%;
+        p {
+            margin: auto;
+            text-align: center;
+            color: $tint-cyan;
+            font-weight: 900;
+        }
+    }
+    .btn1:hover .btntext1, .btn2:hover .btntext2, .btn3:hover .btntext3, .btn4:hover .btntext4, .btn5:hover .btntext5, .btn6:hover .btntext6 {
+        display: flex;
+        align-items: center;
+    }
+
+    .btn1:hover img, .btn2:hover img, .btn3:hover img, .btn4:hover img, .btn5:hover img, .btn6:hover img {
+        opacity: 0.1;
+        transition: opacity .12s ease-out;
+    }
+
+    .imgbtn {display: block; max-width: 25vw;}
+    .imgbtn:hover {box-shadow: .03vw 0 .3vw $grey; opacity: 0.95;}
+}
+
+.full {width: 100%; padding: 0 4vw}
+
+#error404 {
+
+    padding: 2vw 2vw;
+    margin: 4vw 6vw;
+    background-color: $white;
+    box-shadow: 0 .5vw $grey;
+    display: block;
+    box-shadow: .03vw 0 .3vw $grey, -.03vw 0 .3vw $light-grey,;
+    text-align: center;
+    
+    .title {
+        font-family: $header;
+        font-size: 13vw;
+        font-weight: 500;
+        color: $tint-cyan;
+    }
+    .subtitle {
+        font-family: $content;
+        font-size: 1.4vw;
+        font-weight: 400;
+        padding: 1vw 7vw;
+        line-height: 2vw;
+        color: $grey;
+
+        b {color: $black;}
+    }
+}
+
+.portraitbox {
+    display: block;
+    width: 15vw;
+    .portrait {
+        width: 8.5vw;
+        padding: 0;
+        margin: auto;
+        display: block;
+    }
+    .name {
+        color: $black;
+        font-weight: 700;
+        font-size: 1.05vw;
+        text-align: center;
+        margin: .5vw 0 .25vw 0;
+        padding: 0;
+        line-height: 125%;
+
+        i {font-weight: 500; font-size: 95%;}
+    }
+    .appointment {
+        font-style: italic;
+        font-size: .95vw;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        line-height: 1.1vw;
+    }
+}
+
+.fullwidth {width: 100%;}
+
+.portraitrow {
+    display: flex;
+    justify-content: space-around;
+    padding: .5vw 0;
+    p {width: 100%;}
+    .unitpatch {
+        max-width: 14vw;
+        max-height: 14vw;
+        margin: 0;
+        padding: 0 2.5vw 0 0;
+    }
+    .unitinfo {
+        width: 100%;
+        padding: 0 2.5vw 0 0;
+    }
+    .agencylogo {
+        width: 20vw;
+        height: 100%;
+        margin: 0 2.5vw 0 0;
+        padding: 1vw 1.5vw;
+        box-shadow: .05vw 0 .5vw $light-grey, -.05vw 0 .5vw $light-grey,;
+    }
+    .directory-btn {
+        display: block;
+        width: 20%;
+        margin: .4vw 0;
+        text-align: center;
+        padding: .4vw;
+        font-size: 1.3vw;
+        font-family: $header;
+        font-weight: 500;
+        color: $white;
+        border: 0.2vw solid $dark-cyan;
+        background-color: $dark-cyan;
+        border-radius: .5vw;
+    }
+    .directory-btn:hover {
+        color: $white;
+        background-color: $tint-gold;
+        border: 0.2vw solid $tint-gold;
+        text-decoration: none;
+        font-weight: 700;
+    }
+}
+
+.orgtree {
+    div {
+        display: block;
+        min-width: 100%;
+        float: left;
+        margin-bottom: 2vw;
+    }
+    ul {padding: 0 0 0 2vw; margin: 0; line-height: 2vw;}
+    li {font-family: $content; font-size: 1.1vw; color: $grey;}
+    li::marker {content: "▪ ";}
+}
+
+.orgtable {
+    table {width: 100%;}
+    table, th {border: 0.1vw solid $dark-cyan; border-collapse: collapse;}
+    th {border-left: none; border-right: none;}
+    tr {font-family: $content; font-size: 1.1vw; text-align: left; line-height: 1.4vw;}
+    tr:hover {background-color: $hover;}
+    td {color: $dark-cyan; padding: .5vw 1vw;}
+    td:first-child, th:first-child {width: 60%;}
+    th {
+        color: $tint-cyan; padding: .5vw 1vw; background-color: $less-cyan; font-weight: 400;
+        h4 {margin: 0; font-size: 1.25vw; color: $tint-cyan;}
+    }
+    .top {background-color: $tint-cyan; height: .25vw; padding: 0;}
+    img {max-width: 16vw; max-height: 12vw; margin: 1vw;}
+    td div {display: flex; align-items: center;}
+    td div div {
+        display: block;
+        h4 {margin: 0; text-transform: none; font-weight: 500; letter-spacing: 0;}
+        p {margin: 0; padding: 0; line-height: 1.25vw; font-size: 1vw; font-style: italic; color: $black;}
+    }
+    .indent {padding-left: 1.4vw;}
+}
+
+.legbtnrow {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    a:hover {text-decoration: none;}
+
+    .btn {
+        display: inline-flex;
+        border: .15vw solid $grey;
+        border-radius: .75vw;
+        padding: 0.5vw 0.75vw;
+        margin: 0.5vw;
+        .legtext {font-size: 1.2vw; font-family: $content; margin: 0; padding: 0; font-weight: 700; color: $grey;}
+    }
+
+    .btn:hover {background-color: $tint-cyan; border-color: $tint-cyan;
+        .legtext {color: $white;}
+    }
+}
+
+.pagesubtitle {
+    font-size: 1.3vw; color: $grey;
+    a {font-family: inherit; color: $tint-gold; font-weight: 700; font-size: 1.1vw;}
+}
+
+.staffrow {
+    display: flex;
+    justify-content: space-around;
+    padding: .5vw 0;
+    .army {background-color: $army;}
+    .navy {background-color: $navy;}
+    div {
+        width: 15vw;
+        padding: 1.5vw;
+        margin: 0;
+        display: block;
+        p {color: $white; text-align: center;}
+        hr {margin: 0.5vw 0; padding: 0;}
+        .department {font-family: $header; font-weight: 700; font-size: 1.4vw; letter-spacing: .05vw; margin: 0; padding: 0;}
+        .rankname {
+            font-weight: 700;
+            font-size: 1.1vw;
+            margin: 0 0 .5vw 0;
+            padding: 0;
+            line-height: 125%;
+            i {font-weight: 500; font-size: 95%;}
+        }
+        .appointment {
+            font-style: italic;
+            font-size: .95vw;
+            margin: 0;
+            padding: 0;
+            line-height: 1.1vw;
+        }
+    }
+}
+
+.banner {
+    width: 100%;
+    height: 12vw;
+    align-self: center;
+    object-fit: cover;
+}
+
+.chamber {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    img {margin: 0; width: 40%;}
+    table {margin: 0; padding: 0;}
+    .NSC {color: #CE971B; font-weight: 700;}
+    .IGA {color: #7BC31A; font-weight: 700;}
+    .SPM {color: #2975A7; font-weight: 700;}
+    .NCA {color: #B42E2E; font-weight: 700;}
+    .UFP {color: #683088; font-weight: 700;}
+    .IND {color: #888888; font-weight: 700;}
+    th, td {
+        font-family: $content;
+        font-size: 1.2vw;
+        padding: 0.25vw;
+        color: $black;
+    }
+    th {font-weight: 900; text-align: left;}
+    td:nth-child(2), th:nth-child(2) {padding: .3vw 3vw;}
+    td:nth-child(2), td:nth-child(3) {text-align: right;}
+    tr:last-child {font-weight: 700;}
+}

@@ -1,0 +1,257 @@
+//import colors and fonts
+@import '_base.scss';
+
+//header box properties
+header {
+    margin: 0;
+
+    div {
+        padding: 0;
+        margin: 0;
+
+        .rightbox {
+            display: flex;
+            justify-content: left;
+        }
+    }
+    .top {
+        padding: 0 6vw 0 6vw;
+        align-items: center;
+        display: flex;
+        background-color: $white;
+    }
+    .flagbox {
+        vertical-align: middle;
+        float: right;
+    }
+    .logotext {
+        margin: auto 3%;
+        color: $tint-cyan;
+        justify-content: right;
+        h3 {
+            color: $dark-cyan;
+            display: inline;
+            letter-spacing: .05vw;
+            font-size: 1.6vw;
+        }
+    }
+    h1 {
+        display: inline;
+        font-size: 2.4vw;
+    }
+    h4 {
+        font-family: $header;
+        font-weight: 700;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        font-size: 1.9vw;
+        vertical-align: middle;
+        letter-spacing: .09vw;
+        color: $dark-gold;
+    }
+    p {
+        font-family: $content;
+        font-weight: 700;
+        padding: 0;
+        margin: 0 0 0.5vw 0;
+        font-size: .9vw;
+        color: $dark-cyan;
+    }
+
+    #header_logo {
+        margin: 0;
+        max-width: 100%;
+        display: inline-block;
+    }
+    
+    #flag {
+        height: 1.6vw;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .col-50l {
+        width: 15%;
+        height: 100%;
+        margin: 0;
+        padding: 0 1vw 0 1vw;
+        display: flex;
+        justify-content: center;
+        background-color: $tint-cyan;
+        color: $white;
+        box-shadow: .3vw 0 1.8vw $grey, -.3vw 0 1.8vw $grey,;
+        z-index: 1;
+    }
+    
+    .col-50r {
+        width: 50%;
+        margin: 0;
+        float: right;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .dropbtn1, .dropbtn2, .dropbtn3, .dropbtn4 {
+        background-color: $tint-gold;
+        color: $white;
+        padding: .75vw 1.5vw;
+        margin: 0;
+        font-family: $content;
+        font-size: 1.2vw;
+        font-weight: 500;
+        border: none;
+        cursor: default;
+        float: left;
+    }
+    
+    .navbar {
+        display: block;
+        background-color: $tint_gold;
+        box-shadow: 0 -.2vw 2vw $grey;
+        list-style-type: none;
+        padding: 0 6vw 1.5vw 6vw;
+        font-family: $content;
+        font-size: 1.2vw;
+        font-weight: 500;
+        margin: 0;
+        z-index: 1;
+    }
+      
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content1, .dropdown-content2, .dropdown-content3, .dropdown-content4 {
+        position: absolute;
+        background-color: $white;
+        width: 65%;
+        box-shadow: 0 .05vw 1vw $grey;
+        z-index: 0;
+        display: none;
+        left: 6vw;
+        top: 2.9vw;
+    
+        .ddcol {
+            width: 40%;
+            margin: 0;
+            padding: 1vw 2vw;
+            float: left;
+        }
+    
+        h2 {
+            color: $tint-gold;
+            font-weight: 700;
+            letter-spacing: .02vw;
+            padding: 1vw 2vw 0 2vw;
+            margin: 0;
+            font-size: 1.8vw;
+        }
+    
+        h3 {
+            color: $grey;
+            padding: 0 2vw;
+            margin: 0;
+            letter-spacing: 0;
+            font-weight: 500;
+            color: $light-grey;
+            font-size: 1.3vw;
+        }
+    
+        a, p {
+            color: $black;
+            text-decoration: none;
+            line-height: 1.7vw;
+            font-size: 1.05vw;
+        }
+    
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .ddheader_cyan {
+            color: $dark-cyan;
+            font-weight: 700;
+            line-height: 2.2vw;
+            font-size: 1.1vw;
+        }
+    
+        .ddheader_grey {
+            color: $grey;
+            font-weight: 700;
+            line-height: 1.9vw;
+            font-size: 1.1vw;
+        }
+    }
+      
+    /* Show the dropdown menu on hover */
+    .dropbtn1:hover .dropdown-content1, .dropbtn2:hover .dropdown-content2, .dropbtn3:hover .dropdown-content3, .dropbtn4:hover .dropdown-content4 {
+        display: block;
+        overflow: visible;
+    }
+      
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropbtn1:hover, .dropbtn2:hover, .dropbtn3:hover, .dropbtn4:hover {
+        background-color: $dark-gold;
+    }
+}
+
+footer {
+    margin: 0;
+    padding: 0 6vw 1.5vw 6vw;
+    background-color: $dark-cyan;
+    display: flex;
+    justify-content: center;
+
+    .col-30 {
+        width: 30%;
+        padding: 0 1vw;
+    }
+
+    h3 {
+        font-family: $header;
+        color: $white;
+        display: block;
+        margin: 0;
+        padding: 1.5vw 0 .5vw 0;
+        letter-spacing: 0.01vw;
+        font-size: 1.4vw;
+    }
+
+    a, p {
+        display: inline;
+        font-family: $content;
+        color: $white;
+        line-height: 1.55vw;
+        font-weight: 400;
+        font-size: 1.1vw;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .bottom {
+        border-top: 0.16vw solid $white;
+        width: 100%;
+        display: block;
+        text-align: center;
+        font-family: $content;
+        color: $white;
+        letter-spacing: 0.03vw;
+        padding: 0.5vw;
+    }
+
+    .tsaeoiru {
+        font-size: 1.1vw;
+        font-weight: 700;
+    }
+
+    .multilang {
+        font-size: .9vw;
+        font-weight: 400;
+    }
+
+    #shadow {
+        box-shadow: 0 .05vw 1vw $grey;
+        z-index: 1;
+    }
+}

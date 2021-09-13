@@ -1,0 +1,33 @@
+//import from Google Fonts, Lato (400, 700, 900); Fira Sans (500, 700, 900)
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;700;900&family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+//font variables
+$header: 'Fira Sans', sans-serif;
+$content: 'Lato', sans-serif;
+
+//content colors
+$black: #212121;
+$grey: #565656;
+$light-grey: #888888;
+$off-white: #eaeaea;
+$white: #f3f3f3;
+$hover: #e6edf2;
+$tint-cyan: #0b4d76;
+$dark-cyan: #0f689f;
+$side-cyan: #1596e5;
+$less-cyan: #d2e1eb;
+$tint_gold: #a27400;
+$dark_gold: #cb9100;
+$side_gold: #ffbd19;
+$less-gold: #e4dac2;
+$navy: #001d5c;
+$army: #5f5329;
+
+body {
+    color: $black;
+    font: $content;
+    margin: 0;
+    padding: 0;
+    background-color: $off-white;
+    font-size: .75vw;
+}

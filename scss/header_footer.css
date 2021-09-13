@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;700;900&family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+body {
+  color: #212121;
+  font: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eaeaea;
+  font-size: .75vw;
+}
+
+header {
+  margin: 0;
+  /* Dropdown Content (Hidden by Default) */
+  /* Show the dropdown menu on hover */
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+}
+
+header div {
+  padding: 0;
+  margin: 0;
+}
+
+header div .rightbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+header .top {
+  padding: 0 6vw 0 6vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f3f3f3;
+}
+
+header .flagbox {
+  vertical-align: middle;
+  float: right;
+}
+
+header .logotext {
+  margin: auto 3%;
+  color: #0b4d76;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+header .logotext h3 {
+  color: #0f689f;
+  display: inline;
+  letter-spacing: .05vw;
+  font-size: 1.6vw;
+}
+
+header h1 {
+  display: inline;
+  font-size: 2.4vw;
+}
+
+header h4 {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  font-size: 1.9vw;
+  vertical-align: middle;
+  letter-spacing: .09vw;
+  color: #cb9100;
+}
+
+header p {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  padding: 0;
+  margin: 0 0 0.5vw 0;
+  font-size: .9vw;
+  color: #0f689f;
+}
+
+header #header_logo {
+  margin: 0;
+  max-width: 100%;
+  display: inline-block;
+}
+
+header #flag {
+  height: 1.6vw;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+header .col-50l {
+  width: 15%;
+  height: 100%;
+  margin: 0;
+  padding: 0 1vw 0 1vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #0b4d76;
+  color: #f3f3f3;
+  -webkit-box-shadow: 0.3vw 0 1.8vw #565656, -0.3vw 0 1.8vw #565656;
+          box-shadow: 0.3vw 0 1.8vw #565656, -0.3vw 0 1.8vw #565656;
+  z-index: 1;
+}
+
+header .col-50r {
+  width: 50%;
+  margin: 0;
+  float: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+header .dropbtn1, header .dropbtn2, header .dropbtn3, header .dropbtn4 {
+  background-color: #a27400;
+  color: #f3f3f3;
+  padding: .75vw 1.5vw;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2vw;
+  font-weight: 500;
+  border: none;
+  cursor: default;
+  float: left;
+}
+
+header .navbar {
+  display: block;
+  background-color: #a27400;
+  -webkit-box-shadow: 0 -0.2vw 2vw #565656;
+          box-shadow: 0 -0.2vw 2vw #565656;
+  list-style-type: none;
+  padding: 0 6vw 1.5vw 6vw;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2vw;
+  font-weight: 500;
+  margin: 0;
+  z-index: 1;
+}
+
+header .dropdown-content1, header .dropdown-content2, header .dropdown-content3, header .dropdown-content4 {
+  position: absolute;
+  background-color: #f3f3f3;
+  width: 65%;
+  -webkit-box-shadow: 0 0.05vw 1vw #565656;
+          box-shadow: 0 0.05vw 1vw #565656;
+  z-index: 0;
+  display: none;
+  left: 6vw;
+  top: 2.9vw;
+}
+
+header .dropdown-content1 .ddcol, header .dropdown-content2 .ddcol, header .dropdown-content3 .ddcol, header .dropdown-content4 .ddcol {
+  width: 40%;
+  margin: 0;
+  padding: 1vw 2vw;
+  float: left;
+}
+
+header .dropdown-content1 h2, header .dropdown-content2 h2, header .dropdown-content3 h2, header .dropdown-content4 h2 {
+  color: #a27400;
+  font-weight: 700;
+  letter-spacing: .02vw;
+  padding: 1vw 2vw 0 2vw;
+  margin: 0;
+  font-size: 1.8vw;
+}
+
+header .dropdown-content1 h3, header .dropdown-content2 h3, header .dropdown-content3 h3, header .dropdown-content4 h3 {
+  color: #565656;
+  padding: 0 2vw;
+  margin: 0;
+  letter-spacing: 0;
+  font-weight: 500;
+  color: #888888;
+  font-size: 1.3vw;
+}
+
+header .dropdown-content1 a, header .dropdown-content1 p, header .dropdown-content2 a, header .dropdown-content2 p, header .dropdown-content3 a, header .dropdown-content3 p, header .dropdown-content4 a, header .dropdown-content4 p {
+  color: #212121;
+  text-decoration: none;
+  line-height: 1.7vw;
+  font-size: 1.05vw;
+}
+
+header .dropdown-content1 a:hover, header .dropdown-content2 a:hover, header .dropdown-content3 a:hover, header .dropdown-content4 a:hover {
+  text-decoration: underline;
+}
+
+header .dropdown-content1 .ddheader_cyan, header .dropdown-content2 .ddheader_cyan, header .dropdown-content3 .ddheader_cyan, header .dropdown-content4 .ddheader_cyan {
+  color: #0f689f;
+  font-weight: 700;
+  line-height: 2.2vw;
+  font-size: 1.1vw;
+}
+
+header .dropdown-content1 .ddheader_grey, header .dropdown-content2 .ddheader_grey, header .dropdown-content3 .ddheader_grey, header .dropdown-content4 .ddheader_grey {
+  color: #565656;
+  font-weight: 700;
+  line-height: 1.9vw;
+  font-size: 1.1vw;
+}
+
+header .dropbtn1:hover .dropdown-content1, header .dropbtn2:hover .dropdown-content2, header .dropbtn3:hover .dropdown-content3, header .dropbtn4:hover .dropdown-content4 {
+  display: block;
+  overflow: visible;
+}
+
+header .dropbtn1:hover, header .dropbtn2:hover, header .dropbtn3:hover, header .dropbtn4:hover {
+  background-color: #cb9100;
+}
+
+footer {
+  margin: 0;
+  padding: 0 6vw 1.5vw 6vw;
+  background-color: #0f689f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .col-30 {
+  width: 30%;
+  padding: 0 1vw;
+}
+
+footer h3 {
+  font-family: "Fira Sans", sans-serif;
+  color: #f3f3f3;
+  display: block;
+  margin: 0;
+  padding: 1.5vw 0 .5vw 0;
+  letter-spacing: 0.01vw;
+  font-size: 1.4vw;
+}
+
+footer a, footer p {
+  display: inline;
+  font-family: "Lato", sans-serif;
+  color: #f3f3f3;
+  line-height: 1.55vw;
+  font-weight: 400;
+  font-size: 1.1vw;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .bottom {
+  border-top: 0.16vw solid #f3f3f3;
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: #f3f3f3;
+  letter-spacing: 0.03vw;
+  padding: 0.5vw;
+}
+
+footer .tsaeoiru {
+  font-size: 1.1vw;
+  font-weight: 700;
+}
+
+footer .multilang {
+  font-size: .9vw;
+  font-weight: 400;
+}
+
+footer #shadow {
+  -webkit-box-shadow: 0 0.05vw 1vw #565656;
+          box-shadow: 0 0.05vw 1vw #565656;
+  z-index: 1;
+}
+/*# sourceMappingURL=header_footer.css.map */
