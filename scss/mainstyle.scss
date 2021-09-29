@@ -109,6 +109,8 @@ h4 {
     }
 }
 
+.maxwidth {width: 100%;}
+
 .content_space {
     margin: 0;
     padding: 0 4vw 0 4vw;
@@ -116,6 +118,7 @@ h4 {
     min-width: 70%;
     .btnrow {display: flex;}
     .justify {justify-content: space-around;}
+    .flex-start {justify-content: flex-start; flex-wrap: wrap;}
     .btn1, .btn2, .btn3, .btn4, .btn5, .btn6 {
         display: block;
         position: relative;
@@ -152,6 +155,14 @@ h4 {
 
     .imgbtn {display: block; max-width: 25vw;}
     .imgbtn:hover {box-shadow: .03vw 0 .3vw $grey; opacity: 0.95;}
+
+    .pssbtn {display: block; max-width: 17.5vw; margin: 0 1.25vw 0 0;}
+    .gcbtn {border-left: 1vw solid $pss_gc;}
+    .sdbtn {border-left: 1vw solid $pss_sd;}
+    .apbbtn {border-left: 1vw solid $pss_apb;}
+    .gcbtn:hover {box-shadow: .15vw 0 .75vw $pss_gc; opacity: 0.95;}
+    .sdbtn:hover {box-shadow: .15vw 0 .75vw $pss_sd; opacity: 0.95;}
+    .apbbtn:hover {box-shadow: .15vw 0 .75vw $pss_apb; opacity: 0.95;}
 }
 
 .full {width: 100%; padding: 0 4vw}
@@ -352,6 +363,10 @@ h4 {
             line-height: 1.1vw;
         }
     }
+    .pss_main {background-color: $white;}
+    .pss_gc {background-color: $pss_gc;}
+    .pss_sd {background-color: $pss_sd;}
+    .pss_apb {background-color: $pss_apb;}
 }
 
 .banner {

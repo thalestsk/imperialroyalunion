@@ -148,6 +148,10 @@ h4 {
   width: 100%;
 }
 
+.maxwidth {
+  width: 100%;
+}
+
 .content_space {
   margin: 0;
   padding: 0 4vw 0 4vw;
@@ -164,6 +168,14 @@ h4 {
 .content_space .justify {
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.content_space .flex-start {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .content_space .btn1, .content_space .btn2, .content_space .btn3, .content_space .btn4, .content_space .btn5, .content_space .btn6 {
@@ -222,6 +234,42 @@ h4 {
 .content_space .imgbtn:hover {
   -webkit-box-shadow: 0.03vw 0 0.3vw #565656;
           box-shadow: 0.03vw 0 0.3vw #565656;
+  opacity: 0.95;
+}
+
+.content_space .pssbtn {
+  display: block;
+  max-width: 17.5vw;
+  margin: 0 1.25vw 0 0;
+}
+
+.content_space .gcbtn {
+  border-left: 1vw solid #796878;
+}
+
+.content_space .sdbtn {
+  border-left: 1vw solid #536878;
+}
+
+.content_space .apbbtn {
+  border-left: 1vw solid #a67b5b;
+}
+
+.content_space .gcbtn:hover {
+  -webkit-box-shadow: 0.15vw 0 0.75vw #796878;
+          box-shadow: 0.15vw 0 0.75vw #796878;
+  opacity: 0.95;
+}
+
+.content_space .sdbtn:hover {
+  -webkit-box-shadow: 0.15vw 0 0.75vw #536878;
+          box-shadow: 0.15vw 0 0.75vw #536878;
+  opacity: 0.95;
+}
+
+.content_space .apbbtn:hover {
+  -webkit-box-shadow: 0.15vw 0 0.75vw #a67b5b;
+          box-shadow: 0.15vw 0 0.75vw #a67b5b;
   opacity: 0.95;
 }
 
@@ -591,6 +639,22 @@ h4 {
   margin: 0;
   padding: 0;
   line-height: 1.1vw;
+}
+
+.staffrow .pss_main {
+  background-color: #f3f3f3;
+}
+
+.staffrow .pss_gc {
+  background-color: #796878;
+}
+
+.staffrow .pss_sd {
+  background-color: #536878;
+}
+
+.staffrow .pss_apb {
+  background-color: #a67b5b;
 }
 
 .banner {
