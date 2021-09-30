@@ -18,6 +18,7 @@ header {
         padding: 0 6vw 0 6vw;
         align-items: center;
         display: flex;
+        justify-content: space-between;
         background-color: $white;
     }
     .flagbox {
@@ -25,9 +26,10 @@ header {
         float: right;
     }
     .logotext {
-        margin: auto 3%;
+        margin: auto 2vw;
         color: $tint-cyan;
         justify-content: right;
+        display: block;
         h3 {
             color: $dark-cyan;
             display: inline;
@@ -61,9 +63,9 @@ header {
 
     #header_logo {
         margin: 0;
-        width: 100%;
-        padding-top: 100%;
-        display: inline-block;
+        height: 10vw;
+        width: 10vw;
+        display: block;
     }
     
     #flag {
@@ -73,10 +75,9 @@ header {
     }
     
     .col-50l {
-        width: 15%;
-        height: 100%;
+        width: 25%;
         margin: 0;
-        padding: 0 1vw 0 1vw;
+        padding: 0 1.5vw;
         display: flex;
         justify-content: center;
         background-color: $tint-cyan;

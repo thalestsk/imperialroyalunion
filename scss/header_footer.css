@@ -37,6 +37,9 @@ header .top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: #f3f3f3;
 }
 
@@ -46,11 +49,12 @@ header .flagbox {
 }
 
 header .logotext {
-  margin: auto 3%;
+  margin: auto 2vw;
   color: #0b4d76;
   -webkit-box-pack: right;
       -ms-flex-pack: right;
           justify-content: right;
+  display: block;
 }
 
 header .logotext h3 {
@@ -88,9 +92,9 @@ header p {
 
 header #header_logo {
   margin: 0;
-  width: 100%;
-  padding-top: 100%;
-  display: inline-block;
+  height: 10vw;
+  width: 10vw;
+  display: block;
 }
 
 header #flag {
@@ -100,10 +104,9 @@ header #flag {
 }
 
 header .col-50l {
-  width: 15%;
-  height: 100%;
+  width: 25%;
   margin: 0;
-  padding: 0 1vw 0 1vw;
+  padding: 0 1.5vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
