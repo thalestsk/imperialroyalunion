@@ -89,6 +89,7 @@ header p {
 header #header_logo {
   margin: 0;
   width: 100%;
+  padding-top: 100%;
   display: inline-block;
 }
 
