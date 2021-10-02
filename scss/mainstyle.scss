@@ -156,11 +156,13 @@ h4 {
     .imgbtn {display: block; max-width: 25vw;}
     .imgbtn:hover {box-shadow: .03vw 0 .3vw $grey; opacity: 0.95;}
 
-    .pssbtn {display: block; max-width: 17.5vw; margin: 0 1.25vw 0 0;}
-    .gcbtn {border-left: 1vw solid $pss_gc;}
-    .sdbtn {border-left: 1vw solid $pss_sd;}
-    .apbbtn {border-left: 1vw solid $pss_apb;}
+    .pssbtn {display: block; max-width: 17.5vw; margin: 0 1.3vw 0 0;}
+    .gcbtn {border-left: .9vw solid $pss_gc;}
+    .esobtn {border-left: .9vw solid $pss_eso;}
+    .sdbtn {border-left: .9vw solid $pss_sd;}
+    .apbbtn {border-left: .9vw solid $pss_apb;}
     .gcbtn:hover {box-shadow: .15vw 0 .75vw $pss_gc; opacity: 0.95;}
+    .esobtn:hover {box-shadow: .15vw 0 .75vw $pss_eso; opacity: 0.95;}
     .sdbtn:hover {box-shadow: .15vw 0 .75vw $pss_sd; opacity: 0.95;}
     .apbbtn:hover {box-shadow: .15vw 0 .75vw $pss_apb; opacity: 0.95;}
 }
@@ -365,6 +367,7 @@ h4 {
     }
     .pss_main {background-color: $white;}
     .pss_gc {background-color: $pss_gc;}
+    .pss_eso {background-color: $pss_eso}
     .pss_sd {background-color: $pss_sd;}
     .pss_apb {background-color: $pss_apb;}
 }

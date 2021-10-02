@@ -240,36 +240,46 @@ h4 {
 .content_space .pssbtn {
   display: block;
   max-width: 17.5vw;
-  margin: 0 1.25vw 0 0;
+  margin: 0 1.3vw 0 0;
 }
 
 .content_space .gcbtn {
-  border-left: 1vw solid #796878;
+  border-left: 0.9vw solid #9d6c00;
+}
+
+.content_space .esobtn {
+  border-left: 0.9vw solid #9d1d00;
 }
 
 .content_space .sdbtn {
-  border-left: 1vw solid #536878;
+  border-left: 0.9vw solid #00809d;
 }
 
 .content_space .apbbtn {
-  border-left: 1vw solid #a67b5b;
+  border-left: 0.9vw solid #009d1d;
 }
 
 .content_space .gcbtn:hover {
-  -webkit-box-shadow: 0.15vw 0 0.75vw #796878;
-          box-shadow: 0.15vw 0 0.75vw #796878;
+  -webkit-box-shadow: 0.15vw 0 0.75vw #9d6c00;
+          box-shadow: 0.15vw 0 0.75vw #9d6c00;
+  opacity: 0.95;
+}
+
+.content_space .esobtn:hover {
+  -webkit-box-shadow: 0.15vw 0 0.75vw #9d1d00;
+          box-shadow: 0.15vw 0 0.75vw #9d1d00;
   opacity: 0.95;
 }
 
 .content_space .sdbtn:hover {
-  -webkit-box-shadow: 0.15vw 0 0.75vw #536878;
-          box-shadow: 0.15vw 0 0.75vw #536878;
+  -webkit-box-shadow: 0.15vw 0 0.75vw #00809d;
+          box-shadow: 0.15vw 0 0.75vw #00809d;
   opacity: 0.95;
 }
 
 .content_space .apbbtn:hover {
-  -webkit-box-shadow: 0.15vw 0 0.75vw #a67b5b;
-          box-shadow: 0.15vw 0 0.75vw #a67b5b;
+  -webkit-box-shadow: 0.15vw 0 0.75vw #009d1d;
+          box-shadow: 0.15vw 0 0.75vw #009d1d;
   opacity: 0.95;
 }
 
@@ -646,15 +656,19 @@ h4 {
 }
 
 .staffrow .pss_gc {
-  background-color: #796878;
+  background-color: #9d6c00;
+}
+
+.staffrow .pss_eso {
+  background-color: #9d1d00;
 }
 
 .staffrow .pss_sd {
-  background-color: #536878;
+  background-color: #00809d;
 }
 
 .staffrow .pss_apb {
-  background-color: #a67b5b;
+  background-color: #009d1d;
 }
 
 .banner {
