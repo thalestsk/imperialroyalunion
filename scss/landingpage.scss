@@ -1,0 +1,70 @@
+
+@import 'mainstyle.scss';
+
+.main {
+    background-image: url("/imperialroyalunion/img/banners/Main_Stockholm.jpg");
+    background-size: 100%;
+}
+
+.overlay {
+    margin: 4vw 0 6vw 15vw;
+    padding: 4vw;
+    background-color: rgba(20, 20, 20, 0.67);
+    width: 40%;
+
+    img {width: 8vw; opacity: 100%;}
+    h1 {
+        color: $white; margin: 2vw 0 0 0; font-size: 2.4vw;
+        b {font-size: 3.8vw; font-weight: 500;}
+    }
+    h4 {color: $white; text-transform: none; font-weight: 700; margin: 0 0 2vw 0;}
+}
+
+.unipass {
+    display: flex;
+    justify-content: space-between;
+    padding: 6vw 12vw 6vw 16vw;
+    background-image: url("/imperialroyalunion/img/banners/UnipassBkgd.png");
+    background-size: 100%;
+
+    img {width: 18vw; margin: 0; padding: 0;}
+
+    h2 {
+        font-weight: 500; font-family: $content; line-height: 2.5vw; color: $black; margin: 2vw 0 3vw 0;
+        b {color: $dark-cyan; font-weight: 500; font-size: 2.1vw;}
+    }
+
+    a {color: $dark-gold; font-family: $header; font-size: 1.5vw; line-height: 2.5vw; text-decoration: none; b {font-size: 1.3vw;}}
+    a:hover {color: $tint-gold;}
+    a:active {color: $tint-gold; text-decoration: underline;}
+}
+
+.loginbox {
+    display: block;
+    margin: 3vw 0;
+    padding: 1vw 2vw 2vw 2vw;
+    width: 26%;
+    background-color: $white;
+    text-align: center;
+    border-radius: 2.5vw;
+    box-shadow: 0 0 .5vw $light-grey;
+
+    p {font-family: $content; font-size: 1.15vw; b {font-size: 1.3vw;}}
+    img {width: 18vw; display: inline-block; padding: 0; margin: 0;}
+}
+
+.quicklinks {
+    padding: 3vw 15vw;
+    margin: 0;
+    background-image: url("/imperialroyalunion/img/banners/Munich.png");
+    background-size: 100%;
+
+    .row {display: flex; flex-wrap: wrap; justify-content: space-between; background-color: rgba(0, 0, 0, 0); padding: 0; margin: 0; width: 100%;}
+    div {display: block; text-align: center; background-color: rgba(220, 150, 0, 0.85); padding: 1.5vw; margin: 3vw 0; width: 16vw;}
+    img {display: inline-block; width: 3vw; padding: 1vw;}
+    h2 {font-size: 1.6vw; color: $black; font-weight: 500;}
+    p {color: $black; font-family: $content; font-size: 1.3vw; padding: 0 .5vw;}
+
+    a {text-decoration: none;}
+    a:hover div {background-color: $side-gold;}
+}
