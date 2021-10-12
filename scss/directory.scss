@@ -41,7 +41,10 @@
     }
     .regulations {
         margin: 0 3vw 0 0;
-        h3 {margin-top: 0;}
-        p {margin-bottom: 1vw;}
+        h3 {margin: 1.5vw 0 0.5vw 0; padding: 0;}
+        h3:first-of-type {padding-top: 0; margin-top: 0;}
+        p {padding-bottom: 0.5vw;}
+        ul {margin: 0 0 0.5vw 0;}
+        li {font-family: $content; font-size: 1.2vw; color: $grey; padding: 0.33vw 0;}
     }
 }

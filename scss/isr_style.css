@@ -795,69 +795,6 @@ h4 {
   font-weight: 700;
 }
 
-.boxwithlogo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.boxwithlogo div {
-  display: block;
-}
-
-.boxwithlogo img {
-  width: 26vw;
-  margin: 0 0 0 3vw;
-}
-
-.singleportrait {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.singleportrait img {
-  width: 8.5vw;
-  padding: 0;
-  margin: auto;
-  display: block;
-}
-
-.singleportrait .imgbox {
-  width: 13vw;
-  margin: 0 0 0 3vw;
-}
-
-.singleportrait .name {
-  color: #212121;
-  font-weight: 700;
-  font-size: 1.05vw;
-  text-align: center;
-  margin: .5vw 0 .25vw 0;
-  padding: 0;
-  line-height: 125%;
-}
-
-.singleportrait .name i {
-  font-weight: 500;
-  font-size: 95%;
-}
-
-.singleportrait .appointment {
-  font-style: italic;
-  font-size: .95vw;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  line-height: 1.1vw;
-}
-
 .splitspace {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -880,7 +817,7 @@ h4 {
 }
 
 .sidebar img {
-  width: 13vw;
+  width: 15vw;
   display: inline-block;
   padding: 1vw 0 0 0;
 }

@@ -895,10 +895,27 @@ h4 {
 }
 
 .activity .regulations h3 {
+  margin: 1.5vw 0 0.5vw 0;
+  padding: 0;
+}
+
+.activity .regulations h3:first-of-type {
+  padding-top: 0;
   margin-top: 0;
 }
 
 .activity .regulations p {
-  margin-bottom: 1vw;
+  padding-bottom: 0.5vw;
+}
+
+.activity .regulations ul {
+  margin: 0 0 0.5vw 0;
+}
+
+.activity .regulations li {
+  font-family: "Lato", sans-serif;
+  font-size: 1.2vw;
+  color: #565656;
+  padding: 0.33vw 0;
 }
 /*# sourceMappingURL=directory.css.map */
