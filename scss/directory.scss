@@ -1,0 +1,47 @@
+
+@import 'mainstyle.scss';
+
+.boxwithlogo {
+    display: flex; justify-content:space-between;
+    div {display: block;}
+    img {width: 26vw; margin: 0 0 0 3vw;}
+}
+
+.singleportrait {
+    display: flex; justify-content: space-between;
+    img {width: 8.5vw; padding: 0; margin: auto; display: block;}
+    .imgbox {width: 13vw; margin: 0 0 0 3vw;}
+    .name {
+        color: $black;
+        font-weight: 700;
+        font-size: 1.05vw;
+        text-align: center;
+        margin: .5vw 0 .25vw 0;
+        padding: 0;
+        line-height: 125%;
+        i {font-weight: 500; font-size: 95%;}
+    }
+    .appointment {
+        font-style: italic;
+        font-size: .95vw;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        line-height: 1.1vw;
+    }
+}
+
+.activity {
+    display: flex;
+    .contactbox {
+        background-color: $less-gold; padding: 1vw 1.5vw 0 1.5vw; width: 18vw; margin: 0 0 2vw 0;
+        img {display: inline-block; height: 2vw; vertical-align: middle; padding: 0.25vw 1vw 0.25vw 0;}
+        b {font-size: 1.3vw; font-weight: 900; color: $tint-gold;}
+        p {font-size: 1.15vw; color: $black; font-weight: 700;}
+    }
+    .regulations {
+        margin: 0 3vw 0 0;
+        h3 {margin-top: 0;}
+        p {margin-bottom: 1vw;}
+    }
+}

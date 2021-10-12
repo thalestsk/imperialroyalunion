@@ -794,4 +794,111 @@ h4 {
   letter-spacing: 0;
   font-weight: 700;
 }
-/*# sourceMappingURL=mainstyle.css.map */
+
+.boxwithlogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.boxwithlogo div {
+  display: block;
+}
+
+.boxwithlogo img {
+  width: 26vw;
+  margin: 0 0 0 3vw;
+}
+
+.singleportrait {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.singleportrait img {
+  width: 8.5vw;
+  padding: 0;
+  margin: auto;
+  display: block;
+}
+
+.singleportrait .imgbox {
+  width: 13vw;
+  margin: 0 0 0 3vw;
+}
+
+.singleportrait .name {
+  color: #212121;
+  font-weight: 700;
+  font-size: 1.05vw;
+  text-align: center;
+  margin: .5vw 0 .25vw 0;
+  padding: 0;
+  line-height: 125%;
+}
+
+.singleportrait .name i {
+  font-weight: 500;
+  font-size: 95%;
+}
+
+.singleportrait .appointment {
+  font-style: italic;
+  font-size: .95vw;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  line-height: 1.1vw;
+}
+
+.activity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.activity .contactbox {
+  background-color: #e4dac2;
+  padding: 1vw 1.5vw 0 1.5vw;
+  width: 18vw;
+  margin: 0 0 2vw 0;
+}
+
+.activity .contactbox img {
+  display: inline-block;
+  height: 2vw;
+  vertical-align: middle;
+  padding: 0.25vw 1vw 0.25vw 0;
+}
+
+.activity .contactbox b {
+  font-size: 1.3vw;
+  font-weight: 900;
+  color: #a27400;
+}
+
+.activity .contactbox p {
+  font-size: 1.15vw;
+  color: #212121;
+  font-weight: 700;
+}
+
+.activity .regulations {
+  margin: 0 3vw 0 0;
+}
+
+.activity .regulations h3 {
+  margin-top: 0;
+}
+
+.activity .regulations p {
+  margin-bottom: 1vw;
+}
+/*# sourceMappingURL=directory.css.map */

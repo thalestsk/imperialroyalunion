@@ -410,33 +410,3 @@ h4 {
     img {width: 90%; margin: auto; padding: 0 0 .5vw 0; display: inline-block;}
     h4 {text-align: center; text-transform: none; letter-spacing: 0; font-weight: 700;}
 }
-
-.boxwithlogo {
-    display: flex; justify-content:space-between;
-    div {display: block;}
-    img {width: 26vw; margin: 0 0 0 3vw;}
-}
-
-.singleportrait {
-    display: flex; justify-content: space-between;
-    img {width: 8.5vw; padding: 0; margin: auto; display: block;}
-    .imgbox {width: 13vw; margin: 0 0 0 3vw;}
-    .name {
-        color: $black;
-        font-weight: 700;
-        font-size: 1.05vw;
-        text-align: center;
-        margin: .5vw 0 .25vw 0;
-        padding: 0;
-        line-height: 125%;
-        i {font-weight: 500; font-size: 95%;}
-    }
-    .appointment {
-        font-style: italic;
-        font-size: .95vw;
-        text-align: center;
-        margin: 0;
-        padding: 0;
-        line-height: 1.1vw;
-    }
-}
