@@ -88,3 +88,12 @@ table.isr {
     th:first-child, td:first-child {width: 12vw;}
     th:last-child, td:last-child {width: 12vw;}
 }
+
+.civilschedule {
+    border-collapse: collapse; width: 100%; margin: 0 0 3vw 0; border: 2px solid $grey;
+    tr, td, th {border: 0.5px solid $grey;}
+    td, th {font-family: $content; text-align: center; padding: 0.5vw; font-size: 1vw; color: $grey;}
+    th {font-size: 1.1vw; border-bottom: 2px solid $grey;}
+    td:first-of-type {word-wrap: break-word;}
+    td:last-child, td:nth-last-child(2) {text-align: left;}
+}

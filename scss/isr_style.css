@@ -1086,4 +1086,36 @@ table.isr img {
 .officialstatements th:last-child, .officialstatements td:last-child {
   width: 12vw;
 }
+
+.civilschedule {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 0 3vw 0;
+  border: 2px solid #565656;
+}
+
+.civilschedule tr, .civilschedule td, .civilschedule th {
+  border: 0.5px solid #565656;
+}
+
+.civilschedule td, .civilschedule th {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  padding: 0.5vw;
+  font-size: 1vw;
+  color: #565656;
+}
+
+.civilschedule th {
+  font-size: 1.1vw;
+  border-bottom: 2px solid #565656;
+}
+
+.civilschedule td:first-of-type {
+  word-wrap: break-word;
+}
+
+.civilschedule td:last-child, .civilschedule td:nth-last-child(2) {
+  text-align: left;
+}
 /*# sourceMappingURL=isr_style.css.map */

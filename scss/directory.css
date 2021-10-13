@@ -918,4 +918,44 @@ h4 {
   color: #565656;
   padding: 0.33vw 0;
 }
+
+.accordion {
+  background-color: #d2e1eb;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  text-align: left;
+  padding: 1vw;
+  width: 100%;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-bottom: 2px solid #0f689f;
+}
+
+.accordion h4 {
+  padding: 0;
+  margin: 0;
+  text-transform: none;
+  font-size: 1.4vw;
+  font-weight: 700;
+  color: #0b4d76;
+}
+
+.active, .accordion:hover {
+  background-color: #0f689f;
+}
+
+.active h4, .accordion:hover h4 {
+  color: #f3f3f3;
+}
+
+.panel {
+  display: none;
+  background-color: #f3f3f3;
+  overflow: hidden;
+  border: 2px solid #0f689f;
+  border-top: none;
+  padding: 1vw;
+  margin: 0;
+}
 /*# sourceMappingURL=directory.css.map */

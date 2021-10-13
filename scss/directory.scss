@@ -48,3 +48,31 @@
         li {font-family: $content; font-size: 1.2vw; color: $grey; padding: 0.33vw 0;}
     }
 }
+
+.accordion {
+    background-color: $less-cyan;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    text-align: left;
+    padding: 1vw;
+    width: 100%;
+    transition: 0.4s;
+    border-bottom: 2px solid $dark-cyan;
+    h4 {padding: 0; margin: 0; text-transform: none; font-size: 1.4vw; font-weight: 700; color: $tint-cyan;}
+}
+  
+.active, .accordion:hover {
+    background-color: $dark-cyan; 
+    h4 {color: $white;}
+}
+  
+.panel {
+    display: none;
+    background-color: $white;
+    overflow: hidden;
+    border: 2px solid $dark-cyan;
+    border-top: none;
+    padding: 1vw;
+    margin: 0;
+}
