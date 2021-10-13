@@ -95,8 +95,9 @@
 
             <div class="orgtree">
 
-                <button class="accordion"><h4>Cabinet Office for the General Executive</h4></button>
-                <div class="panel">
+                <details>
+                    <summary><h4>Cabinet Office for the General Executive</h4></summary>
+                    <br>
                     <ul>
                         <li><b>Permanent Secretary for the General Executive</b> | <i>Mr. Chaney Chilcot</i></li>
                         <ul>
@@ -119,10 +120,12 @@
                             <li><b>Attorney-General</b> | <i>Mr. Glenn Sauber</i></li>
                         </ul>
                     </ul>
-                </div>
-                
-                <button class="accordion"><h4>Cabinet Office for Sovereign Affairs</h4></button>
-                <div class="panel">
+                    <br>
+                </details>
+
+                <details>
+                    <summary><h4>Cabinet Office for Sovereign Affairs</h4></summary>
+                    <br>
                     <ul>
                         <li><b>Permanent Secretary for Sovereign Affairs</b> | <i>Ms. Jessica Charon</i></li>
                         <ul>
@@ -137,10 +140,12 @@
                             <li><b>Senate Representative</b> | <i>Ms. Esther Nell</i></li>
                         </ul>
                     </ul>
-                </div>
+                    <br>
+                </details>
 
-                <button class="accordion"><h4>Cabinet Office for the Economy & Commerce</h4></button>
-                <div class="panel">
+                <details>
+                    <summary><h4>Cabinet Office for the Economy & Commerce</h4></summary>
+                    <br>
                     <ul>
                         <li><b>Permanent Secretary for the Economy & Commerce</b> | <i>Ms. Katelyn Chevra</i></li>
                         <ul>
@@ -155,10 +160,12 @@
                             <li><b>Senate Representative</b> | <i>Ms. Deborah Laugesen</i></li>
                         </ul>
                     </ul>
-                </div>
+                    <br>
+                </details>
 
-                <button class="accordion"><h4>Cabinet Office for Infrastructure</h4></button>
-                <div class="panel">
+                <details>
+                    <summary><h4>Cabinet Office for Infrastructure</h4></summary>
+                    <br>
                     <ul>
                         <li><b>Permanent Secretary for Infrastructure</b> | <i>Mr. Trevor Poulhard</i></li>
                         <ul>
@@ -173,10 +180,12 @@
                             <li><b>Senate Representative</b> | <i>Mr. Mark Linden</i></li>
                         </ul>
                     </ul>
-                </div>
+                    <br>
+                </details>
 
-                <button class="accordion"><h4>Cabinet Office for Human Services</h4></button>
-                <div class="panel">
+                <details>
+                    <summary><h4>Cabinet Office for Human Services</h4></summary>
+                    <br>
                     <ul>
                         <li><b>Permanent Secretary for Human Services</b> | <i>Ms. Kristin Jean-Lowry</i></li>
                         <ul>
@@ -191,10 +200,12 @@
                             <li><b>Senate Representative</b> | <i>Ms. Sabrina Džemaili</i></li>
                         </ul>
                     </ul>
-                </div>
+                    <br>
+                </details>
 
-                <button class="accordion"><h4>Cabinet Office for Education</h4></button>
-                <div class="panel">
+                <details>
+                    <summary><h4>Cabinet Office for Education</h4></summary>
+                    <br>
                     <ul>
                         <li><b>Permanent Secretary for Education</b> | <i>Ms. Ruth Charbonneau</i></li>
                         <ul>
@@ -209,10 +220,12 @@
                             <li><b>Senate Representative</b> | <i>Ms. Sharon So</i></li>
                         </ul>
                     </ul>
-                </div>
+                    <br>
+                </details>
 
-                <button class="accordion"><h4>Cabinet Office for the Environment</h4></button>
-                <div class="panel">
+                <details>
+                    <summary><h4>Cabinet Office for the Environment</h4></summary>
+                    <br>
                     <ul>
                         <li><b>Permanent Secretary for Environment</b> | <i>Mr. Jared Holmes</i></li>
                         <ul>
@@ -227,10 +240,12 @@
                             <li><b>Senate Representative</b> | <i>Mr. Timothy Norbert</i></li>
                         </ul>
                     </ul>
-                </div>
+                    <br>
+                </details>
 
-                <button class="accordion"><h4>Cabinet Office for Workforce Affairs</h4></button>
-                <div class="panel">
+                <details>
+                    <summary><h4>Cabinet Office for Workforce Affairs</h4></summary>
+                    <br>
                     <ul>
                         <li><b>Permanent Secretary for Workforce Affairs</b> | <i>Ms. Nura Arbersten</i></li>
                         <ul>
@@ -245,7 +260,8 @@
                             <li><b>Senate Representative</b> | <i>Ms. Jesmine Awburn</i></li>
                         </ul>
                     </ul>
-                </div>
+                    <br>
+                </details>
 
             </div>
         </div>
@@ -266,27 +282,6 @@
             </div>
         </div>
     </div>
-
-    <script>
-        var acc = document.getElementsByClassName("accordion");
-        var i;
-        
-        for (i = 0; i < acc.length; i++) {
-          acc[i].addEventListener("click", function() {
-            /* Toggle between adding and removing the "active" class,
-            to highlight the button that controls the panel */
-            this.classList.toggle("active");
-        
-            /* Toggle between hiding and showing the active panel */
-            var panel = this.nextElementSibling;
-            if (panel.style.display === "block") {
-              panel.style.display = "none";
-            } else {
-              panel.style.display = "block";
-            }
-          });
-        }
-    </script>
 
     <div w3-include-html="/imperialroyalunion/common/footer.html"></div>
     <script>w3IncludeHTML();</script>
