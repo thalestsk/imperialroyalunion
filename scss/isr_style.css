@@ -795,6 +795,76 @@ h4 {
   font-weight: 700;
 }
 
+.resource-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.resource-column div {
+  width: 40%;
+  margin: 0.25vw 0;
+}
+
+.link-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.link-button img {
+  width: 2.7vw;
+  display: block;
+}
+
+.link-button .round {
+  width: 5vw;
+  height: 5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid #cb9100;
+  border-radius: 50%;
+  background-color: #cb9100;
+  position: relative;
+  z-index: 9;
+  -webkit-transform: translateX(-1.25vw);
+          transform: translateX(-1.25vw);
+}
+
+.link-button .tag {
+  width: 18vw;
+  border: 2px solid #a27400;
+  border-radius: 0.7vw;
+  color: #a27400;
+  display: block;
+  padding: 0.25vw 0.5vw 0.25vw 2vw;
+  font-weight: bold;
+  text-align: left;
+  position: absolute;
+  z-index: 8;
+  -webkit-transform: translateX(10vw);
+          transform: translateX(10vw);
+}
+
+.link-button:hover .tag {
+  color: #e4dac2;
+  background-color: #a27400;
+  border-color: #a27400;
+}
+
 .splitspace {
   display: -webkit-box;
   display: -ms-flexbox;
