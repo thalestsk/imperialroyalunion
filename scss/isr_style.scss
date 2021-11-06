@@ -35,6 +35,32 @@
 .mainspace {
     display: block; width: 60vw; margin: 3vw;
     h1 {font-size: 3vw; color: $burgundy;}
+    .isr-title {font-size: 3vw;}
+    .isr-subtitle {
+        font-size: 1.6vw;
+        font-family: $header;
+        display: inline-block;
+        padding: .4vw .8vw;
+        margin-bottom: .8vw;
+        border-radius: .3vw;
+        vertical-align: middle;
+    }
+    .chapter-number {padding: .4vw 0; margin-right: 1vw; color: $black; font-size: 2.2vw;}
+    .inforce {color: $white; background-color: $pss_apb;}
+    .repealed {color: $white; background-color: $pss_eso;}
+    .draft {color: $white; background-color: $pss_gc;}
+}
+
+.isr-section-act {
+    font-family: $content;
+    ol {counter-reset: section; list-style-type: none; ol {counter-reset: subsection;}}
+    li, p {font-size: 1.2vw; padding: 0 4vw .8vw 0; line-height: 2.3vw; text-align: justify;}
+    .section {padding: 1.5vw 4vw .6vw 1.3vw; margin-left: 1vw; font-family: $header;}
+    .section:first-of-type {padding-top: 0;}
+    .paragraph::before {counter-increment: section; content: "( " counter(section) " ) — ";}
+    .paragraph:only-of-type::before, .continue::before {content: ""}
+    .part {margin: 0 3vw 0 2vw;}
+    .part::before {counter-increment: subsection; content: "( " counter(subsection, lower-alpha) " ) ";}
 }
 
 hr {height: .3vw; background-color: $burgundy; margin: 0; padding: 0;}
@@ -96,4 +122,47 @@ table.isr {
     th {font-size: 1.1vw; border-bottom: 2px solid $grey;}
     td:first-of-type {word-wrap: break-word;}
     td:last-child, td:nth-last-child(2) {text-align: left;}
+}
+
+.policy_header {font-family: $content; font-size: 2vw; font-weight: 500; color: $red-pink; margin: 0 0 .75vw 0;}
+
+.policy_box {
+    display: flex;
+    .policy {
+        display: block;
+        margin: 0 0 1vw 0; padding: 0; width: 68%;
+    }
+    .full {width: 100%;}
+    p {margin: 0;}
+}
+
+.concept {
+    display: block;
+    width: 28%;
+    margin: 0 0 0 4%;
+    .quote {
+        font-family: $header;
+        font-size: 1.1vw;
+        text-align: center;
+        border-top: 12px solid $isr-pink;
+        border-bottom: 12px solid $isr-pink;
+        width: 100%;
+        padding: 1vw 0;
+        margin: 0 0 1vw 0;
+        b {color: $black; display: block; padding: 0.5vw 0 0 0;}
+    }
+    img {
+        width: 100%;
+        border-top: 12px solid $isr-pink;
+        padding: 1vw 0 0 0;
+    }
+    .caption {
+        font-style: italic;
+        color: $grey;
+        font-family: $content;
+        font-size: 1.1vw;
+        border-bottom: 12px solid $isr-pink;
+        padding: 0 0 1vw 0;
+        margin: 0.5vw 0 1vw 0;
+    }
 }
