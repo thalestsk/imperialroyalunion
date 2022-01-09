@@ -1030,6 +1030,28 @@ h4 {
   content: "( " counter(subsection, lower-alpha) " ) ";
 }
 
+p.edict-preamble, p.edict-notes {
+  font-size: 1.2vw;
+  padding: 0 0 1vw 0;
+  line-height: 2.1vw;
+  text-align: justify;
+  color: #212121;
+}
+
+p.edict-subtitle {
+  font-size: 1.2vw;
+  padding: 0 0 1vw 0;
+  line-height: 1.7vw;
+  text-align: justify;
+  font-style: italic;
+}
+
+.edict-heading {
+  color: #64001a;
+  font-size: 2vw;
+  font-weight: normal;
+}
+
 hr {
   height: .3vw;
   background-color: #64001a;

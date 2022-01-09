@@ -63,6 +63,10 @@
     .part::before {counter-increment: subsection; content: "( " counter(subsection, lower-alpha) " ) ";}
 }
 
+p.edict-preamble, p.edict-notes {font-size: 1.2vw; padding: 0 0 1vw 0; line-height: 2.1vw; text-align: justify; color: $black;}
+p.edict-subtitle {font-size: 1.2vw; padding: 0 0 1vw 0; line-height: 1.7vw; text-align: justify; font-style: italic;}
+.edict-heading {color: $burgundy; font-size: 2vw; font-weight: normal;}
+
 hr {height: .3vw; background-color: $burgundy; margin: 0; padding: 0;}
 
 table.isr {
