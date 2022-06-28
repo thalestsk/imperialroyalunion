@@ -64,3 +64,23 @@ details {
     summary:hover {background-color: $dark-cyan; h4 {color: $white;}}
     br {line-height: 2vw; font-size: 2vw;}
 }
+
+table.resourcetable {
+    border-collapse: collapse;
+    width: 100%;
+    @media only screen and (min-width: 1200px) {width: 80%;}
+    th:nth-child(1), th:nth-child(2) {
+        width: 25%;
+    }
+    th:nth-child(3), th:nth-child(4), th:nth-child(5), th:nth-child(6) {
+        width: 12.5%;
+    }
+    th, td {
+        font-family: $content;
+        font-size: 18px;
+        color: $black;
+        padding: 5px;
+        border: 1px solid $grey;
+        text-align: left;
+    }
+}

@@ -1028,4 +1028,32 @@ details br {
   line-height: 2vw;
   font-size: 2vw;
 }
+
+table.resourcetable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+@media only screen and (min-width: 1200px) {
+  table.resourcetable {
+    width: 80%;
+  }
+}
+
+table.resourcetable th:nth-child(1), table.resourcetable th:nth-child(2) {
+  width: 25%;
+}
+
+table.resourcetable th:nth-child(3), table.resourcetable th:nth-child(4), table.resourcetable th:nth-child(5), table.resourcetable th:nth-child(6) {
+  width: 12.5%;
+}
+
+table.resourcetable th, table.resourcetable td {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: #212121;
+  padding: 5px;
+  border: 1px solid #565656;
+  text-align: left;
+}
 /*# sourceMappingURL=directory.css.map */
