@@ -1,0 +1,100 @@
+
+@import 'mainstyle.scss';
+
+details {width: 25%; padding: 0; margin: 0;}
+
+summary::marker {
+    content: "";
+}
+
+.summary-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.portraitbox {
+    width: 70%;
+    padding: 21px;
+    box-shadow: 0 0 8px $grey;
+    background-color: $off-white;
+    border-radius: 5px;
+
+    img {
+        width: 150px;
+        max-height: 187px;
+        margin: 0 auto 16px auto;
+        display: block;
+        border-radius: 50%;
+        border: 7px solid $tint_gold;
+        box-shadow: 0 0 12px $light-grey;
+    }
+
+    p {text-align: center; line-height: 22px; margin: 0; padding: 0;}
+    i {font-size: 16px;}
+    b {font-size: 18px;}
+
+}
+
+.detailsinfobox {
+    margin: 6px 18px;
+    padding: 0;
+    h2 {font-size: 20px; margin: 16px 0 4px 0;}
+    p {font-size: 16px; line-height: 22px; margin: 0; padding: 0;}
+    ul {margin: 0 0 0 18px; padding: 0;}
+    .qualification {font-weight: bold;}
+    .university {font-style: italic;}
+
+    table {font-family: $content; width: 100%;}
+    th, td {font-size: 14px; line-height: 16px; margin: 0; padding: 0 10px 4px 0; text-align: left;}
+
+    td:nth-child(1) {width: 25%;}
+    td:nth-child(2) {width: 75%;}
+}
+
+p.appointments {
+    padding: 20px 0 0 0;
+    line-height: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    color: $tint_gold;
+}
+
+.badgerow {display: flex; justify-content: center; margin: 8px 0 0 0;}
+
+.badge {
+    display: inline-block;
+    color: $white;
+    font-weight: bold;
+    font-family: $header;
+    font-size: 16px;
+    padding: 3px 6px;
+    margin: 0 3px;
+    border-radius: 6px;
+    text-align: center;
+    width: min-content;
+}
+
+.superior {background-color: #BE8400;}
+.security {background-color: #00851A;}
+.interior {background-color: #007A98;}
+.judicial {background-color: #BE0099;}
+
+table.legend {
+    margin: 9px auto 27px auto;
+    padding: 9px;
+    border: 1px solid $off-white;
+    border-radius: 5px;
+    box-shadow: 0 0 12px $light-grey;
+
+    th {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 0;
+        padding: 3px 18px;
+        font-family: $header;
+        text-align: center;
+    }
+    td {text-align: center;}
+}

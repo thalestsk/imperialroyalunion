@@ -84,3 +84,26 @@ table.resourcetable {
         text-align: left;
     }
 }
+
+table.honours {
+    border-collapse: collapse;
+    width: 100%;
+    @media only screen and (min-width: 1200px) {width: 80%;}
+    th:nth-child(1) {width: 8%;}
+    th:nth-child(2) {width: 52%;}
+    th:nth-child(3) {width: 40%;}
+    th, td {
+        font-family: $content;
+        font-size: 18px;
+        color: $black;
+        padding: 10px;
+        border: 1px solid $grey;
+        text-align: left;
+    }
+    td:nth-child(1) {font-size: 22px; font-weight:700;}
+    h4 {
+        font-family: $content;
+        font-size: 20px;
+        text-transform: none;
+    }
+}
